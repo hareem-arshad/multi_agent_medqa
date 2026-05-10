@@ -1,35 +1,31 @@
 # Multi-Agent Clinical Reasoning System
 
-## Overview
-A multi-agent AI framework that improves LLM reasoning using iterative feedback loops.
+A lightweight multi-agent AI framework that improves clinical reasoning by simulating an iterative expert review process using collaborative AI agents.
 
-## Dataset
-MedQA benchmark dataset (Jin et al., 2020)
+---
 
-## System
-- Solver Agent
-- Critic Agent
-- Refiner Agent
+##  Overview
 
-## Method
-We evaluate whether iterative feedback improves reasoning quality.
+Traditional medical AI systems generate a single-pass answer, which can lead to reasoning errors and inconsistent outputs.  
+This project introduces a **multi-agent reasoning pipeline** where multiple AI agents collaborate to solve, critique, and refine medical answers.
 
-## Result
-Multi-agent system improves reasoning consistency compared to baseline.
+The system mimics real-world clinical decision-making where multiple experts review and improve diagnostic reasoning.
 
-## Tech Stack
-Python, Streamlit, LLM APIs, MedQA dataset
+---
 
-User Input
-   ↓
-Solver Agent
-   ↓
-Critic Agent
-   ↓
-Refiner Agent
-   ↓
-Final Answer
-   ↓
-Evaluation
-   ↓
-AMD Batch Benchmark (optional)
+##  System Architecture
+
+The system consists of three coordinated agents:
+
+###  Solver Agent
+- Generates initial clinical reasoning and diagnosis
+
+### Critic Agent
+- Reviews reasoning for errors, gaps, and inconsistencies
+
+### Refiner Agent
+- Improves final response using critique feedback
+
+---
+
+##  Workflow
