@@ -1,4 +1,4 @@
-# 🧠 Multi-Agent Clinical Reasoning System
+# Multi-Agent Clinical Reasoning System
 
 A lightweight multi-agent AI framework that improves clinical reasoning by simulating an iterative expert review process using collaborative AI agents.
 
