@@ -45,9 +45,10 @@ Refiner Agent (Final Improved Answer)
 The system is evaluated using the:
 
 - MedQA (Medical Question Answering Dataset)
-
-This dataset contains medical exam-style questions designed to test clinical reasoning and diagnostic accuracy.
-
+- This dataset contains medical exam-style questions designed to test clinical reasoning and diagnostic accuracy.
+  Credits: https://huggingface.co/datasets/fzkuji/MedQA 
+T
+ 
 ---
 
 ##  Technologies Used
